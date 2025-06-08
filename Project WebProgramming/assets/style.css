@@ -1,0 +1,49 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+header {
+  background-color: #007bff;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+}
+
+.filter {
+  margin-bottom: 20px;
+}
+
+.filter label {
+  margin-right: 10px;
+}
+
+.filter select {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#attendanceTable {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px auto;
+}
+
+#attendanceTable th,
+#attendanceTable td {
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+#attendanceTable th {
+  background-color: #007bff;
+  color: white;
+}
